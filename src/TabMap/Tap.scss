@@ -1,0 +1,37 @@
+$border-color: #ccc;
+$hover-bg: #f0f0f0;
+$font-size: 1rem;
+
+.tabWrap {
+width: 100%;
+display: flex;
+justify-content: space-around;
+padding: 1rem 0;
+border-bottom: 2px solid $border-color;
+
+button {
+flex: 1;
+padding: 1rem;
+font-size: $font-size;
+background: none;
+border: none;
+cursor: pointer;
+transition: background 0.3s ease;
+
+&:hover {
+    background: $hover-bg;
+}
+}
+}
+
+ul {
+width: 100%;
+padding: 0;
+margin: 1rem 0;
+list-style: none;
+
+li {
+padding: 1rem;
+border-bottom: 1px solid #ddd;
+}
+}
